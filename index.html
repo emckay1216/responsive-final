@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logoh.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">tours</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Hands On Learning</h1>
+          <p>
+            High Quality Early Childhood Education Services
+          </p>
+          <p>
+            Helping you develop and support growing minds!
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">our approach</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+          <p>
+            Teresa McKay has been in the field of Early Childhood for 40 years. 
+            Her experiences include being a classroom teacher, program director, 
+            trainer, district manager, and owner/administrator of an NAEYC Accredited program.
+          </p>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+          <p>
+            We are pleased to provide both on site and online training and workshops to meet 
+            your program's specific needs. We provide topics for teachers, administrators, 
+            and families. We also do full day conference planning and support.
+        </p>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>our <span>approach</span></h2>
+          <p> 
+            After 35 years in the ECE field, we decided to focus our attention and 
+            passion to helping others. Our services and products are designed to 
+            empower your team and outfit them with the tools for success.
+          </p>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Hands On Learning 
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
